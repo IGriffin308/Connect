@@ -1,0 +1,46 @@
+#board {
+  background-color: rgb(0, 160, 0);
+  margin: auto;
+}
+
+#board td {
+    width: 50px;
+    height: 50px;
+    border: inset 2px #666;
+    background: radial-gradient(circle, rgba(200,200,200,1) 57%, rgba(0,0,0,1) 60%, rgb(25, 200, 25) 63%);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight:500;
+    color: rgb(25, 200, 25);
+    text-shadow: 1px 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, -1px -1px 0 #000;
+  }
+
+#top td {
+    border: inset 1px lightgray;
+    background: radial-gradient(circle, rgba(255,255,255,1) 57%, rgba(127,127,127,1) 60%, rgba(255,255,255,1) 63%);
+  }
+
+#top td:hover {
+    background: radial-gradient(circle, rgba(255,225,25,1) 57%, rgba(100,100,100,1) 60%, rgba(255,225,25,1) 63%);
+  }
+
+.piece {
+    margin: auto;
+    width: 60%;
+    height: 60%;
+    border-style: outset;
+    border-width: 7px;
+    border-radius: 50%;
+    color: white;
+  }
+  
+.piece.p1 {
+    background: linear-gradient(150deg, rgba(102,0,0,1) 0%, rgba(255,0,0,1) 50%);
+    border-color: red;
+  }
+
+.piece.p2 {
+    background: linear-gradient(150deg, rgba(0,0,102,1) 0%, rgba(0,0,255,1) 50%);
+    border-color: blue;
+  }
